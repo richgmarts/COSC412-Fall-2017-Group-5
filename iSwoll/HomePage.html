@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>iSwoll</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <img src="spartan.png" ; height="110px" ; width="380px" ;>
+
+    </header>
+
+    <nav>
+        <ul>
+            <a href="#">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>My Account</li>
+            </a>
+            <a href="#">
+                <li>Log In</li>
+            </a>
+            <a href="#">
+                <li>Register</li>
+            </a>
+            <a href="#">
+                <li>About</li>
+            </a>
+            <a href="#">
+                <li>Contact Us</li>
+            </a>
+        </ul>
+        <div class="handle">Menu</div>
+    </nav>
+
+
+    <div class="sideright">
+
+        <h2>Important Resources</h2>
+
+        <p> Check Your Records </p>
+        <p> Available experts </p>
+        <p> Coaches' information </p>
+        <p> Map </p>
+        <p> Program's Information </p>
+
+    </div>
+
+    <div class="homePage">
+        This is the main page
+    </div>
+
+
+    <script>
+        $('.handle').on('click', function() {
+            $('nav ul').toggleClass('showing');
+        });
+    </script>
+</body>
+
+</html>
