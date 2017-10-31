@@ -1,94 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
     <head>
-        <title>Student registration</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="userRegistration.css" />
     </head>
 
-<body>
-    <h1>Create Student account</h1>
-    <form>
-        <table>
-            <tr>
-                <td>
-                    Name
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type = "text" placeholder = "First" name=""> 
-                </td>
-                <td>
-                    <input type = "text" placeholder = "Last" name="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Email 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type = "mail" placeholder = "Email" name="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Address
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Password
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type = "password" name="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Confirm password
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type = "password" name="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Gender
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="radio" name="Gender">Male
-                    <input type="radio" name="Gender">Female
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Home #
-                </td>
-                <td>
-                    Mobile #
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="Phone" name="">
-                </td>
-                <td>
-                    <input type="Phone" name="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="Submit" value="Submit" name="">
-                </td>
-            </tr>
-        </table>
-    </form>
-</body>
+    <body>
+        
+        <!-- Trigger/Open the Modal -->
+        <button class="button" id="myBtn">Register</button>
+        
+        <div class ="modal" id="myModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    header
+                </div>
+                <div class="modal-body">
+                    <b>Welcome to CSS World!</b>
+                    <p>This is the simplest ever and easy way
+                        to create.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button class="btnc" id="btnclose">Close</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="userRegistraton.js"></script>
+    
+    </body>
+
 </html>
