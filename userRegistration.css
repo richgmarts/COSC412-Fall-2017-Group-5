@@ -45,34 +45,11 @@ body {
     display: none;
 }
 
-.modal-content {
+.modal-inner {
     width: 400px;
     height: 250px;
     background: #81d4fa;
     border-radius: 3px;
     margin: 150px auto;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
-}
-
-.modal-header {
-    width: 400px;
-    height: 40px;
-    padding: 10px;
-    background: #00b0ff;
-    font-weight: bold;
-    text-shadow: -1px 1px 1px rgba(0,0,0,0.2);
-
-}
-
-.modal-body {
-    width: 400px;
-    height: 160px;
-    padding: 20px 10px;
-}
-
-.modal-footer {
-    width: 400px;
-    height: 50px;
-    padding: 10px;
-    box-shadow: 0 -1px 1px rgba(0,0,0.2);
 }

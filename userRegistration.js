@@ -1,11 +1,12 @@
-var btn = document.getElementById('myBtn');
-var btnclose = document.getElementById('btnclose');
+var modal = document.getElementById("myModal");
+var myBtn = document.getElementById("myBtn");
+var inline = document.getElementById("close")[0];
 
 // When user clicks on the button, open the modal
-btn.onclick = function() {
+myBtn.onclick = function() {
     modal.style.display = "block";
 }
 
-btnclose.onclick = function() {
+inline.onclick = function() {
     modal.style.display = "none";
 }
